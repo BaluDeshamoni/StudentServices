@@ -1,0 +1,79 @@
+input {
+  padding: 1vh 1vh;
+  margin: 5px 5px;
+  border: none;
+  border-radius: 3px;
+}
+.credentials button {
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  border: none;
+  border-radius: 3px;
+  padding: 1vh 2vh;
+  margin: 5px;
+}
+h1 {
+  color: #658ec6;
+  font-weight: 525;
+  font-size: 2.5rem;
+  opacity: 0.8;
+}
+
+h1:hover {
+  color: #426696;
+  font-weight: 535;
+  font-size: 2.5rem;
+  opacity: 1;
+}
+
+.loginbox {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  padding: 2vh 6vh;
+  margin: 3vh 50vh;
+  border-radius: 20px;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+  backdrop-filter: blur(2rem);
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  padding-left: 1vh;
+  padding-top: 1vh;
+}
+.credentials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.5)
+  );
+  border-radius: 1rem;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+  margin: 0 25vh;
+  padding-bottom: 8vh;
+  margin-bottom: 4vh;
+}
+.eyeicon {
+  position: absolute;
+  margin-top: 20.5vh;
+  margin-left: 20vh;
+  color: #6cdbeb;
+  cursor: pointer;
+}

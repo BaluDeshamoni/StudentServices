@@ -1,0 +1,185 @@
+.qHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    background-color: white;
+    width: 100%;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.5);
+  }
+  
+  .qHeader__logo {
+    display: flex;
+    justify-content:space-evenly;
+  }
+  .qHeader__next > img{
+    height: 14vh;
+    width: 45vh;
+    padding-left: 5vh;
+  }
+  .qHeader__main > p{
+    color: #8f1f1b;
+    font-size: x-large;
+    cursor: pointer;
+    padding-top: 2vh;
+    padding-right: 5vh;
+    padding-left: 10vh;
+  }
+  .qHeader__main > p:hover{
+    color: #b92b27;
+    border-radius: 10px;
+  }
+  
+  .qHeader__icon{
+    display: flex;
+  }
+  .qHeader__icons > .active > .MuiSvgIcon-root {
+    fill: #8f1f1b;
+  }
+  .qHeader__icon p{
+    color: #8f1f1b;
+    font-size: x-large;
+    cursor: pointer;
+    margin-right: 40vh;
+    padding: 1vh;
+    padding-bottom: 1vh;
+  }
+  .qHeader__icon p:hover{
+    border-radius: 10px;
+    color: #b92b27;
+    background-color: rgba(233, 233, 233, 0.5);
+    font-weight: 550;
+  }
+  
+  .qHeader__icon > .MuiSvgIcon-root {
+    font-size: xx-large;
+    background-color: white;
+    color: gray;
+    margin-right: 1vh;
+    margin-top: 4.3vh;
+  }
+  
+  .qHeader__icon > .MuiSvgIcon-root:hover {
+    background-color: rgba(233, 233, 233, 0.5);
+    border-radius: 10px;
+    color: #b92b27;
+  }
+
+  .qHeader__avatar {
+    cursor: pointer;
+  }
+  .qHeader__Rem {
+    display: flex;
+    align-items: center;
+    margin-right: 10vh;
+  }
+  
+  .qHeader__Rem > .MuiSvgIcon-root {
+    font-size: xx-large;
+    color: gray;
+    margin-left: 25px;
+    cursor: pointer;
+    margin-right: 20vh;
+  }
+  .qHeader__Rem > .MuiSvgIcon-root:hover {
+    color: #b92b27;
+  }
+  
+  .qHeader__Rem > .MuiButton-root {
+    color: white;
+    background: #b92b27;
+    text-transform: inherit;
+    border-radius: 20px;
+    margin-left: 10vh;
+  }
+  
+  .qHeader__Rem > .MuiButton-root:hover {
+    color: #ffffff;
+    background: #8f1f1b;
+  }
+
+  .modal__title {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(187, 187, 187, 0.5);
+  }
+  
+  .modal__title > h5 {
+    color: gray;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 30px;
+  }
+  
+  .modal__title > h5:hover {
+    color: #b92b27;
+  }
+  
+  .modal__info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .modal__info > p {
+    margin-left: 10px;
+    font-size: small;
+    color: gray;
+  }
+  
+  .modal__Field {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .modal__Field > .modal__fieldLink {
+    color: gray;
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+  }
+  
+  .modal__Field > .modal__fieldLink > input {
+    flex: 1;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+  }
+  
+  .modal__buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 180px;
+    margin-left: 370px;
+    border-top: 1px solid lightgray;
+  }
+  
+  .modal__buttons > .cancle {
+    margin-left: auto;
+    border: none;
+    margin-top: 5px;
+    outline: none;
+    color: gray;
+    font-weight: 500;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+  }
+  .modal__buttons > .add {
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    background-color: rgb(0, 64, 255);
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+  }
